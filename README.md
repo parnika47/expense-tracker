@@ -1,2 +1,5 @@
-# expense-tracker
-A web-based expense tracker built using HTML, CSS, JavaScript, and SQL.
+# WalletWise 🌿
+
+Track. Save. Grow.
+
+A personal finance dashboard designed to help users manage expenses, stay on budget, build financial habits, and gain meaningful insights into their spending.
