@@ -1,0 +1,171 @@
+/* ===== RESET ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+/* ===== BODY ===== */
+
+body{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:url("background picture.png") no-repeat center center fixed;
+    background-size:cover;
+}
+
+/* ===== MAIN CONTAINER ===== */
+
+.welcome-container{
+    width:700px;
+
+    text-align:center;
+
+    padding:60px;
+
+    background:rgba(255,253,249,0.15);
+
+    border:2px solid rgba(229,217,200,0.4);
+
+    backdrop-filter:blur(8px);
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* ===== LOGO ===== */
+
+.welcome-container h1{
+    font-size:72px;
+
+    color:#3E2F23;
+
+    margin-bottom:15px;
+
+    font-weight:700;
+
+    text-align:center;
+}
+
+/* ===== TAGLINE ===== */
+
+.tagline{
+    color:#8B6F47;
+
+    font-size:26px;
+
+    font-weight:600;
+
+    margin-bottom:30px;
+}
+
+/* ===== DESCRIPTION ===== */
+
+.description{
+    color:#4F4034;
+
+    font-size:20px;
+
+    line-height:1.6;
+
+    margin-bottom:40px;
+
+    max-width:550px;
+
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+/* ===== BUTTON SECTION ===== */
+
+.options{
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:25px;
+}
+
+/* ===== BUTTONS ===== */
+
+.btn{
+    width:320px;
+
+    padding:18px;
+
+    background:#8B6F47;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:14px;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    transition:all 0.3s ease;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.12);
+}
+
+/* ===== HOVER EFFECT ===== */
+
+.btn:hover{
+    transform:translateY(-6px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* ===== ABOUT BUTTON ===== */
+
+.learnmore{
+    background:#8B6F47;
+
+    color:white;
+
+    
+}
+
+
+/* ===== MOBILE ===== */
+
+@media(max-width:768px){
+
+    .welcome-container{
+        width:90%;
+        padding:40px 25px;
+    }
+
+    .welcome-container h1{
+        font-size:50px;
+    }
+
+    .tagline{
+        font-size:20px;
+    }
+
+    .description{
+        font-size:16px;
+    }
+
+    .welcome-container h2{
+        font-size:28px;
+    }
+
+    .btn{
+        width:100%;
+        font-size:18px;
+    }
+}
